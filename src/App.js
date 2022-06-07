@@ -185,6 +185,18 @@ const App = () => {
             ? renderNotConnectedContainer()
             : renderMintUI()}
         </div>
+        <div>
+          <a
+            className="footer-text"
+            href={"https://testnets.opensea.io/collection/squarenft-8oqjmcp7y0"}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="cta-button opensea-button">
+              🌊 View Collection on OpenSea
+            </button>
+          </a>
+        </div>
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
