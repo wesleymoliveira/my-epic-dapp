@@ -23,6 +23,12 @@
   font-weight: bold;
 }
 
+.total {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .sub-text {
   font-size: 25px;
   color: white;
